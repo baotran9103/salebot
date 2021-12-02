@@ -79,13 +79,13 @@ const runSalesBot = async () => {
             marketplaceMap[marketplaceAccount],
             metadata.image
           );
-          await postSaleToDiscord(
-            metadata.name,
-            price,
-            dateString,
-            signature,
-            metadata.image
-          );
+          // await postSaleToDiscord(
+          //   metadata.name,
+          //   price,
+          //   dateString,
+          //   signature,
+          //   metadata.image
+          // );
         } else {
           console.log("not a supported marketplace sale");
         }
